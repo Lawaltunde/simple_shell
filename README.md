@@ -1,5 +1,10 @@
 # 0x16. C - Simple Shell
 
+
+
+
+![shell](https://github.com/user-attachments/assets/0407a16d-8bd6-498b-a9e9-85052f854f67)
+
 ## Description
 This project is an implementation of a simple UNIX command-line interpreter, developed as part of the **ALX Software Engineering Program**.  
 The goal was to recreate a minimalist shell similar to `/bin/sh`, capable of executing basic commands and handling system calls.  
@@ -12,7 +17,7 @@ The project challenged us to deepen our understanding of:
 - Error handling
 - Collaboration in team-based projects
 
-This work was done as a **group project** by **[Tunde Lawal](https://github.com/your-github)** and **Hanae Rohani**.
+This work was done as a **group project** by **[Tunde Lawal](https://github.com/your-github)**
 
 ---
 
@@ -34,3 +39,4 @@ By completing this project, we gained the ability to:
   ```bash
   gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
+---
