@@ -17,7 +17,7 @@ The project challenged us to deepen our understanding of:
 - Error handling
 - Collaboration in team-based projects
 
-This work was done as a **group project** by **[Tunde Lawal](https://github.com/your-github)**
+This work was done as a **group project** by **[Tunde Lawal](https://github.com/Lawaltunde/)**
 
 ---
 
