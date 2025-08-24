@@ -33,6 +33,32 @@ By completing this project, we gained the ability to:
 
 ---
 
+## Compilation
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
+$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$
+
+$ echo "/bin/ls" | ./hsh
+hsh main.c shell.c test_ls_2
+$
+$ cat test_ls_2
+/bin/ls
+/bin/ls
+$
+$ cat test_ls_2 | ./hsh
+hsh main.c shell.c test_ls_2
+hsh main.c shell.c test_ls_2
+$
+
+```
+
 ## Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
 - Compiled on **Ubuntu 20.04 LTS** using:
